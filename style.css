@@ -56,13 +56,6 @@ img{
   grid-template-columns: 1fr 1fr;
   margin-top: 30px;
 }
-.subtitulo{
-  align-items: center;
-}
-.descricao{
-  align-self:  center;
-  grid-column: 1;
-}
-.botao{
-  justify-self: center;
+.box{
+  text
 }
