@@ -12,7 +12,6 @@ Vantagens Bikecraft: 64px
 #Tamanhos
 Conteúdo principal: maximo 1000px*/
 
-
 *{
   margin: 0;
   padding: 0;
@@ -37,15 +36,16 @@ h1{
   text-decoration: none;
   background-color: #f7f7f7;
   color: black;
-  padding: 10px;
+  padding: 15px 20px;
   border-radius: 4px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .botao{
   text-decoration: none;
   color: white;
   background-color: red;
-  padding: 10px;
+  padding: 10px 25px;
   border-radius: 4px;
 }
 img{
@@ -53,9 +53,31 @@ img{
 }
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 30px;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0 100px;
+  background: #f7f7f7;
+  align-items: center;
 }
 .box{
-  text
+  display: grid;
+  gap: 5px;
+  padding: 20px;
+  gap: 20px;
+}
+.subtitulo{
+  text-align: end;
+  font-size: 30px;
+}
+.botao{
+  place-self: center end;
+}
+.descricao{
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+}
+.detalhe{
+  width: 100px;
+  height: 5px;
+  background-color: red;
 }
