@@ -1,7 +1,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="24px" height="24px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" fill="#ff0000" stroke="#ff0000">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd" transform="translate(2 2)"> <path d="m8.5 14.5c3.3285018 0 6-2.6447124 6-5.97321429 0-3.32850184-2.6714982-6.02678571-6-6.02678571-3.32850184 0-6 2.69828387-6 6.02678571 0 3.32850189 2.67149816 5.97321429 6 5.97321429z" stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round"/> <circle cx="8.5" cy="8.5" fill="#ff0000" r="3.5"/> <g stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round"> <path d="m.5 8.5h2"/> <path d="m14.5 8.5h2"/> <path d="m7.5 1.5h2" transform="matrix(0 1 -1 0 10 -7)"/> <path d="m7.5 15.5h2" transform="matrix(0 1 -1 0 24 7)"/> </g> </g> </g>
-</svg>
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path d="M12 19.5C16.1421 19.5 19.5 16.1421 19.5 12C19.5 7.85786 16.1421 4.5 12 4.5C7.85786 4.5 4.5 7.85786 4.5 12C4.5 16.1421 7.85786 19.5 12 19.5Z" stroke="#ff0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#ff0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 4V2" stroke="#ff0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M4 12H2" stroke="#ff0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 20V22" stroke="#ff0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M20 12H22" stroke="#ff0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+</svg>
