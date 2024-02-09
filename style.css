@@ -18,97 +18,51 @@ Conteúdo principal: maximo 1000px*/
   box-sizing: border-box;
 }
 body{
+  display: grid;
+  justify-items: center;
   font-family: Arial, Helvetica, sans-serif;
   background: #f7f7f7;
-}
-h1{
-  text-align: center;
-  padding: 50px;
-  font-weight: 600;
-  font-size: 64px;
-}
-.menu{
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-.menu a{
-  text-decoration: none;
-  background-color: #fff;
-  color: black;
-  padding: 15px 20px;
-  border-radius: 4px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-.botao{
-  text-decoration: none;
-  color: white;
-  background-color: red;
-  padding: 10px 25px;
-  border-radius: 4px;
+  padding: 80px;
+  gap: 60px;
+  margin-top: 60px;
 }
 img{
-  max-width: 100%;
-}
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 100px;
-  max-height: 1000px;
-}
-.box{
-  display: grid;
-  gap: 5px;
-  padding: 20px;
-  gap: 20px;
-  background: white;
-}
-.subtitulo{
-  text-align: end;
-  font-size: 30px;
-}
-.botao{
-  place-self: center end;
-}
-.descricao{
-  text-align: end;
-  font-size: 20px;
-  font-weight: 500;
-}
-.detalhe{
-  width: 100px;
-  height: 5px;
-  background-color: red;
-}
-.box2{
-    display: grid;
-    align-items: center;
-}
-.texto{
-  font-size: 64px;
-  text-align: right;
-  font-weight: bold;
-  color: #c6c6c6;
-  margin-right: 20px;
-}
-.box3{
-  display: grid;
-  gap: 5px;
-  padding: 20px;
-  gap: 20px;
-  background: white;
-}
-.info{
-  display: flex;
-  align-items: center;
-  gap: 10qpx;
-}
-span{
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 10px;
+  width: 100%;
+  display: block;
 }
 p{
-  margin-left: 35px ;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu a{
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.introducao{
+  text-align: right;
+  background-color: #fff;
+}
+.botao{
+  text-decoration: none;
+  background-color: red;
+  justify-self: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
 }
