@@ -29,7 +29,7 @@ img{
 a{
   text-decoration: none;
 }
-p, h1,h2,h3 {
+p, h1,h2,h3,h4 {
   margin: 0px;
 }
 p{
@@ -90,4 +90,17 @@ p{
 }
 .vantagens{
   background-color: #fff;
+  padding: 40px
+}
+.vantagens-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+h4{
+  font-size: 24px;
+}
+.vantagens-item p {
+  grid-column: 2;
 }
