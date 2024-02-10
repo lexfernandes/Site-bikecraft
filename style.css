@@ -13,13 +13,12 @@ Vantagens Bikecraft: 64px
 Conteúdo principal: maximo 1000px*/
 
 body{
-  display: grid;
-  justify-items: center;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   background: #f7f7f7;
-  padding: 80px;
+  display: grid;
   gap: 60px;
+  justify-items: center;
   margin-top: 60px;
 }
 img{
@@ -103,4 +102,12 @@ h4{
 }
 .vantagens-item p {
   grid-column: 2;
+}
+.rodape{
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  font-weight: 600;
 }
