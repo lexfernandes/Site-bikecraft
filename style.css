@@ -17,6 +17,9 @@ a{
 p, h1,h2,h3,h4 {
   margin: 0px;
 }
+h1{
+  font-size: 42px;
+}
 p{
   font-size: 20px;
   line-height: 1.3;
