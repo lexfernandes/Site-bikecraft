@@ -11,9 +11,6 @@ img{
   max-width: 100%;
   display: block;
 }
-a{
-  text-decoration: none;
-}
 p, h1,h2,h3,h4 {
   margin: 0px;
 }
@@ -37,13 +34,14 @@ p{
   color: #000;
   text-transform: uppercase;
   font-weight: 600;
+  text-decoration: none;
 }
-.conteudo{
+.conteudo{ /*caixa principal do GRID*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
 }
-.introducao{
+.introducao{ /*caixa que envolve o conteudo no GRID*/
   text-align: right;
   background-color: #fff;
   padding: 40px;
@@ -67,8 +65,9 @@ p{
   color: #fff;
   padding: 15px 30px;
   border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px 1px #00000070;
 }
-
 .subtitulo{ 
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
