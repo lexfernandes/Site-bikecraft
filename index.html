@@ -7,46 +7,57 @@
   <title>Bikecraft</title>
 </head>
 <body>
-  <h1>bikcraft</h1>
-<div class="menu">
-    <a href="/">Sobre</a>
-    <a href="/">Produtos</a>
-    <a href="/">Lojas</a>
-    <a href="/">Contato</a>
-</div>
-
-<div class="conteudo"> <!-- Caixa padrão do grid-->
-  <div class="introducao"> <!--Segunda caixa para envolter o conteudo-->
-    <span class="detalhe"></span>
-    <h2>Bicicletas Feitas a Mão</h2>
-    <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
+  <header>
+    <h1>bikcraft</h1>
+  </header>
+<aside>
+  <nav class="menu">
+      <a href="/">Sobre</a>
+      <a href="/">Produtos</a>
+      <a href="/">Lojas</a>
+      <a href="/">Contato</a>
+  </nav>
+</aside>
+<main class="conteudo"> <!-- Caixa padrão do grid-->
+  <section class="introducao"> <!--Segunda caixa para envolter o conteudo-->
+    <span class="detalhe"></span> <!-- IREI FAZER MODIFICAÇÃO NO DETALHE UTILIZANDO BEFORE-->
+      <h2>Bicicletas Feitas a Mão</h2>
+      <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
     <a class="botao" href="/">Ver Mais</a>
-  </div>
+  </section>
   <!--Imagem que fica do lado right do GRID-->
-  <img src="./img/bicicleta.jpg" alt="Bicicleta preta">
+  <figure>
+    <img src="./img/bicicleta.jpg" alt="Bicicleta preta">
+  </figure>
   <!--Caixa left em baixo da introdução-->
-  <h3 class="subtitulo">Vantagens Bikcraft</h3>
+    <h3 class="subtitulo">Vantagens Bikcraft</h3>
   <!--Caixa lado right em baixo da imagem-->
-  <div class="vantagens">
-    <div class="vantagens-item">
-      <img src="./img/bicycle.svg" alt="">
-      <h4>Motor Elétrico</h4>
-      <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
-    </div>
-    <div class="vantagens-item">
-      <img src="./img/speedometer.svg" alt="">
+  <section class="vantagens">
+    <article class="vantagens-item">
+      <figure>
+         <img src="./img/bicycle.svg" alt="">
+      </figure>
+        <h4>Motor Elétrico</h4>
+        <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
+    </article>
+    <article class="vantagens-item">
+      <figure>
+        <img src="./img/speedometer.svg" alt="">
+      </figure>
       <h4>40 km/h</h4>
       <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-    </div>
-    <div class="vantagens-item">
-      <img src="./img/gps.svg" alt="">
+    </article>
+    <article class="vantagens-item">
+      <figure>
+        <img src="./img/gps.svg" alt="">
+      </figure>
       <h4>Rastreador</h4>
       <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-    </div>
-  </div>
-</div>
- <div class="rodape">
+    </article>
+  </section>
+</main>
+  <footer class="rodape">
     <p>Bikcraft. Alguns Direitos Reservados</p>
-  </div>
+  </footer>
 </body>
 </html>
