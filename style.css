@@ -1,40 +1,40 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin: 0rem;
   background: #f7f7f7;
   display: grid;
-  gap: 60px;
+  gap: 3.75rem;
   justify-items: center;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 figure{
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
  }
 img{
   max-width: 100%;
   display: block;
 }
 p, h1,h2,h3,h4 {
-  margin: 0px;
+  margin: 0rem;
 }
 h1{
-  font-size: 42px;
+  font-size: 2.62rem;
 }
 p{
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.3;
 }
 .menu {
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   flex-wrap: wrap;
   justify-content: center;
 }
 .menu a{
   background-color: #fff;
-  padding: 15px 30px;
-  border-radius: 4px;
+  padding: 0.93rem 1.87rem;
+  border-radius: 0.25rem;
   color: #000;
   text-transform: uppercase;
   font-weight: 600;
@@ -43,55 +43,55 @@ p{
 .conteudo{ /*caixa principal do GRID*/
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 62.5rem;
 }
 .introducao{ /*caixa que envolve o conteudo no GRID*/
   text-align: right;
   background-color: #fff;
-  padding: 40px;
+  padding: 2.5rem;
   position: relative;
   display: grid;
   align-content: center;
   justify-items: end;
-  gap: 20px;
+  gap: 1.25rem;
 }
 .detalhe{
-  width: 60px;
-  height: 4px;
+  width: 3.75rem;
+  height: 0.25rem;
   background-color: #e21;
   position: absolute;
-  top: 30px;
-  right: -30px;
+  top: 1.87rem;
+  right: -1.87rem;
 }
 .botao{
   background-color: #e21;
   text-transform: uppercase;
   color: #fff;
-  padding: 15px 30px;
-  border-radius: 4px;
+  padding: 0.93rem 1.87rem;
+  border-radius: 0.25rem;
   text-decoration: none;
-  box-shadow: 5px 5px 10px 1px #00000070;
+  box-shadow: 0.31rem 0.31rem 0.62rem 0.004rem #00000070;
 }
 .subtitulo{ 
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
-  font-size: 64px;
+  font-size: 4rem;
   text-align: right;
-  padding: 40px;
+  padding: 2.5rem;
   align-self: center;
 }
 .vantagens{
   background-color: #fff;
-  padding: 40px
+  padding: 2.5rem;
 }
 .vantagens-item{
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px 20px;
-  padding: 20px;
+  gap: 0.62rem 1.25rem;
+  padding: 1.25rem;
 }
 h4{
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .vantagens-item p {
   grid-column: 2;
@@ -100,7 +100,7 @@ h4{
   background-color: #fff;
   width: 100%;
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
   box-sizing: border-box;
   font-weight: 600;
 }
