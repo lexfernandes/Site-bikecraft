@@ -60,13 +60,15 @@ nav a:hover{
   justify-items: end;
   gap: 1.25rem;
 }
-.detalhe{
+section.introducao::before {
   width: 3.75rem;
   height: 0.25rem;
   background-color: #e21;
   position: absolute;
   top: 1.87rem;
   right: -1.87rem;
+  display: inline-block;
+  content: "";
 }
 .botao{
   background-color: #e21;
