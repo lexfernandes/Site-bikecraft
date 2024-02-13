@@ -4,6 +4,6 @@
 Um site basico para iniciante em HTML5 + CSS3 💥
 [Site BIKECRAFT](https://lexfernandes.github.io/Site-bikecraft/)
 
-![BIKECRAFT](./assets/siteBikecraft.png)
+![BIKECRAFT](./assets/site%20bikecraft.png)
 
 ##
