@@ -106,6 +106,25 @@ nav a:hover{
   gap: 0.62rem 1.25rem;
   padding: 1.25rem;
 }
+/* Seleciona article em números impares, com bacground f7f7f7*/
+section.vantagens article:nth-child(odd) {
+  background-color: #f7f7f7; /* Cor de fundo alternada */
+  border-radius: 4px; /* Borda arredondada */
+}
+section.vantagens article {
+  position: relative; /* Posicionamento relativo para o pseudo-elemento */
+}
+section.vantagens article:before {
+  content: ""; /* Conteúdo vazio para o pseudo-elemento */
+  position: absolute; /* Posicionamento absoluto dentro do artigo */
+  width: 0.31rem; /* largura do detalhe(horizontal)*/
+  height: 8.2rem; /* largura na vertical do detalhe*/
+  opacity: 0; /* Opacidade inicial zero */
+  background-color: #e21; /* Cor de fundo padrão */
+}
+section.vantagens article:hover:before {
+  opacity: 1; /* Opacidade total ao passar o mouse */
+}
 h4{
   font-size: 1.5rem;
 }
