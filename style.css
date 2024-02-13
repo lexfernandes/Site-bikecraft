@@ -40,10 +40,10 @@ p{
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
-  border: 3px solid rgba(0, 0, 0, 0.0);
+  border: 0.18rem solid rgba(0, 0, 0, 0.0);
 }
 nav a:hover{
-  border: 3px solid  #e21;
+  border: 0.18rem solid  #e21;
 }
 .conteudo{ /*caixa principal do GRID*/
   display: grid;
@@ -109,7 +109,7 @@ nav a:hover{
 /* Seleciona article em números impares, com bacground f7f7f7*/
 section.vantagens article:nth-child(odd) {
   background-color: #f7f7f7; /* Cor de fundo alternada */
-  border-radius: 4px; /* Borda arredondada */
+  border-radius: 0.25rem; /* Borda arredondada */
 }
 section.vantagens article {
   position: relative; /* Posicionamento relativo para o pseudo-elemento */
