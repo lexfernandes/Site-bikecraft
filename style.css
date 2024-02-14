@@ -1,4 +1,4 @@
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem;
   background: #f7f7f7;
@@ -7,25 +7,29 @@ body{
   justify-items: center;
   margin-top: 3.75rem;
 }
-figure{
+figure {
   margin: 0rem;
   padding: 0rem;
- }
-img{
+}
+img {
   max-width: 100%;
   display: block;
 }
-p, h1,h2,h3,h4 {
+p,
+h1,
+h2,
+h3,
+h4 {
   margin: 0rem;
 }
-h1{
+h1 {
   font-size: 2.62rem;
 }
-p{
+p {
   font-size: 1.25rem;
   line-height: 1.3;
 }
-ul{
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -36,7 +40,7 @@ ul{
   flex-wrap: wrap;
   justify-content: center;
 }
-.menu a{
+.menu a {
   background-color: #fff;
   padding: 0.93rem 1.87rem;
   border-radius: 0.25rem;
@@ -44,20 +48,22 @@ ul{
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
-  border: 0.18rem solid rgba(0, 0, 0, 0.0);
+  border: 0.18rem solid rgba(0, 0, 0, 0);
 }
-nav a:hover{
-  border: 0.18rem solid  #e21;
+nav a:hover {
+  border: 0.18rem solid #e21;
 }
-.conteudo{ /*caixa principal do GRID*/
+.conteudo {
+  /*caixa principal do GRID*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 62.5rem;
 }
-.introducao h2{
+.introducao h2 {
   font-size: 2rem;
 }
-.introducao{ /*caixa que envolve o conteudo no GRID*/
+.introducao {
+  /*caixa que envolve o conteudo no GRID*/
   text-align: right;
   background-color: #fff;
   padding: 2.5rem;
@@ -77,7 +83,7 @@ section.introducao::before {
   display: inline-block;
   content: "";
 }
-.botao{
+.botao {
   background-color: #e21;
   text-transform: uppercase;
   color: #fff;
@@ -86,17 +92,17 @@ section.introducao::before {
   text-decoration: none;
   font-weight: 700;
 }
-.botao:hover{
-  background-color:#900;
+.botao:hover {
+  background-color: #900;
 }
-.background{
+.background {
   background-image: url(./img/wave.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   display: flex;
 }
-.subtitulo{ 
+.subtitulo {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
   font-size: 4rem;
@@ -105,11 +111,11 @@ section.introducao::before {
   align-self: center;
   position: relative;
 }
-.vantagens{
+.vantagens {
   background-color: #fff;
   padding: 2.5rem;
 }
-.vantagens-item{
+.vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 0.62rem 1.25rem;
@@ -134,17 +140,44 @@ section.vantagens article:before {
 section.vantagens article:hover:before {
   opacity: 1; /* Opacidade total ao passar o mouse */
 }
-h4{
+h4 {
   font-size: 1.5rem;
 }
 .vantagens-item p {
   grid-column: 2;
 }
-.rodape{
+.rodape {
   background-color: #fff;
   width: 100%;
   text-align: center;
   padding: 2.5rem;
   box-sizing: border-box;
   font-weight: 600;
+}
+.imgbike img {
+  object-fit: cover;
+  height: 100%;
+}
+@media (max-width: 1000px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .introducao {
+    display: grid;
+    justify-items: start;
+    text-align: left;
+  }
+  section.introducao::before {
+    display: none;
+  }
+  .subtitulo {
+    text-align: center;
+    padding: 5rem;
+    font-size: 3rem;
+  }
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
 }
