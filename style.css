@@ -171,6 +171,9 @@ h4 {
   section.introducao::before {
     display: none;
   }
+  nav ul li a{
+    display: inline-block;
+  }
   .subtitulo {
     text-align: center;
     padding: 5rem;
